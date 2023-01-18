@@ -1,6 +1,5 @@
 import { TfiGallery } from "react-icons/tfi";
 import { MdAnimation } from "react-icons/md";
-import { BsFillMoonStarsFill } from "react-icons/bs";
 import { Link } from "react-router-dom";
 
 const Nav = () => {
