@@ -14,7 +14,7 @@ const ImageCard = ({ image }) => {
       </div>
       <div className="text-white flex justify-between pt-4">
         <p className="">{image.name}</p>
-        <a href={image.link}>
+        <a href={image.link} target="_blank" rel="noreferrer">
           <RiFileDownloadLine size={30} />
         </a>
       </div>

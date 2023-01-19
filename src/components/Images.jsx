@@ -3,7 +3,7 @@ import { imagesData } from "../data/imagesData";
 import ImageCard from "./ImageCard";
 import Search from "./Search";
 
-const Art = () => {
+const Images = () => {
   const [images, setImages] = useState([]);
   const [searchTerm, setSearchTerm] = useState("");
 
@@ -36,4 +36,4 @@ const Art = () => {
   );
 };
 
-export default Art;
+export default Images;

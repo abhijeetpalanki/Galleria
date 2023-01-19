@@ -1,7 +1,8 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Nav from "./components/Nav";
 import Main from "./components/Main";
-import Art from "./components/Art";
+import Images from "./components/Images";
+import Videos from "./components/Videos";
 
 const App = () => {
   return (
@@ -11,8 +12,8 @@ const App = () => {
           <Nav />
           <Routes>
             <Route path="/" element={<Main />} />
-            <Route path="/art" element={<Art />} />
-            <Route path="/animations" element="Animations" />
+            <Route path="/art" element={<Images />} />
+            <Route path="/animations" element={<Videos />} />
           </Routes>
         </main>
       </BrowserRouter>
