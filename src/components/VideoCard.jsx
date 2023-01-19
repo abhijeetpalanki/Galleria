@@ -3,10 +3,7 @@ import { RiFileDownloadLine } from "react-icons/ri";
 
 const VideoCard = ({ video }) => {
   return (
-    <div
-      className="w-full flex flex-col p-4 bg-[#25354c] shadow-[1px_8px_23px_rgba(0,0,0,0.25)] rounded-md"
-      onClick={openModal}
-    >
+    <div className="w-full flex flex-col p-4 bg-[#25354c] shadow-[1px_8px_23px_rgba(0,0,0,0.25)] rounded-md">
       <div className="flex-[2]">
         <video controls autoPlay preload="none" className="h-[350px] w-full">
           <source src={video.link} type="video/mp4"></source>
