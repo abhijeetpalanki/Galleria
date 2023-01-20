@@ -15,13 +15,13 @@ export const videosData = [
     id: 3,
     name: "Fur",
     createdAt: "2020/10/15",
-    link: "https://drive.google.com/file/d/18qTkPn5R4w2Kdd4TO5Srbkd8XRTiK84f/preview",
+    link: "https://drive.google.com/file/d/18qTkPn5R4w2Kdd4TO5Srbkd8XRTiK84f/preview?start=1",
   },
   {
     id: 4,
     name: "Waves",
     createdAt: "2020/10/19",
-    link: "https://drive.google.com/file/d/1OcMtsfqNYUMdci1ATkF48vCWV23Z9ISC/preview",
+    link: "https://drive.google.com/file/d/1OcMtsfqNYUMdci1ATkF48vCWV23Z9ISC/preview?start=1",
   },
   {
     id: 5,

@@ -5,9 +5,15 @@ const VideoCard = ({ video }) => {
   return (
     <div className="w-full flex flex-col p-4 bg-[#25354c] shadow-[1px_8px_23px_rgba(0,0,0,0.25)] rounded-md">
       <div className="flex-[2]">
-        <video controls autoPlay preload="none" className="h-[350px] w-full">
+        <iframe
+          sandbox="allow-same-origin allow-scripts allow-popups allow-forms"
+          width="100%"
+          height="350px"
+          src={video.link}
+        ></iframe>
+        {/* <video controls autoPlay preload="none" className="h-[350px] w-full">
           <source src={video.link} type="video/mp4"></source>
-        </video>
+        </video> */}
       </div>
       <div className="text-white flex justify-between pt-4">
         <p>{video.name}</p>
